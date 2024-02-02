@@ -1,0 +1,109 @@
+:root {
+    --red: rgb(255, 101, 95);
+    --blue: rgb(0, 152, 255);
+    --white: #fff;
+    --black: #000;
+    --off-white: rgb(255, 244, 228);
+    --dull-black: #2F2F2F;
+    --grey: rgb(96, 96, 96);
+    --light-grey: rgb(136, 136, 136);
+    --green: #00BD39;
+    --dark-green: #00bd3920;
+    --dull-green: rgba(0, 15, 8, 0.48);
+    --dull-red: rgb(255, 101, 95);
+    --pastel-green: rgb(132, 224, 174);
+  }
+/*---------------------------------------------- Application Page---------------------------- */
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: WOFF;
+    src: url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/CircularXXWeb-Book.woff2') format('woff2');
+}
+@font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: circular;
+    src: url('') format('woff2');
+}
+
+.application__Container #modalPopup {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    outline: none;
+    background-color: var(--white);
+}
+
+.application__Container .container {
+    margin: 0;
+}
+
+.application__Container .main-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    outline: none;
+    background-image: url("//www.highticketecommerce.co/hosted/images/72/dbacf2b2c9434ea64e8952be7ced51/c2.png");
+}
+
+.application__Container .inner-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    outline: none;
+}
+
+.application__Container .content-wrapper {
+    padding: 0 10px;
+}
+
+.application__Container .headline {
+    text-align: center;
+    font-size: 46px;
+    text-align: center;
+    font-size: 46px;
+    max-width: 1036px;
+    font-weight: 700;
+    margin: auto;
+    line-height: 46px;
+    font-family: GMB;
+}
+.application__Container  .sub-headline {
+    text-align: center;
+    font-size: 23px;
+    font-family: GMB;
+    font-weight: lighter;
+    color:var(--red);
+}
+
+/* Form Styles */
+.application__Container .form-wrapper {
+    max-width: 1050px;
+    height: 464px;
+    margin: auto;
+    padding: 0 10px;
+}
+
+.application__Container  .typeform-wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: inherit;
+    position: relative;
+}
+
+.application__Container  .typeform-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    overflow: hidden;
+    border-radius: 8px;
+    min-height: inherit;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .application__Container  .headline {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+}
